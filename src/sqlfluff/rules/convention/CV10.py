@@ -27,7 +27,7 @@ class Rule_CV10(BaseRule):
 
        This rule is only enabled for dialects that allow single *and* double quotes for
        quoted literals
-       (currently ``bigquery``, ``databricks``, ``hive``, ``mysql``, ``sparksql``).
+       (currently ``bigquery``, ``databricks``, ``hive``, ``mysql``, ``auroramysql``, ``sparksql``).
        It can be enabled for other dialects with the ``force_enable = True`` flag.
 
     **Anti-pattern**
@@ -71,6 +71,7 @@ class Rule_CV10(BaseRule):
         "databricks",
         "hive",
         "mysql",
+        "auroramysql",
         "sparksql",
     ]
 

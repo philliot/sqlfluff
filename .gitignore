@@ -1,7 +1,7 @@
 # Ignore IDE files
 .vscode
 .idea
-/.sqlfluff
+# /.sqlfluff
 **/.DS_Store
 
 # Ignore Python cache and prebuilt things
@@ -32,7 +32,7 @@ htmlcov
 test-reports
 
 # Ignore root testing sql & python files
-/test*.sql
+# /test*.sql
 /test*.py
 /test*.txt
 /.hypothesis/

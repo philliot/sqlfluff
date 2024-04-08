@@ -61,6 +61,15 @@ The dialect for `Amazon Athena`_.
 
 .. _`Amazon Athena`: https://aws.amazon.com/athena/
 
+.. _auroramysql_dialect_ref:
+
+AuroraMySQL
+--------
+
+The dialect for `Amazon Aurora MySQL`_.
+
+.. _`Amazon Aurora MySQL`: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html
+
 .. _bigquery_dialect_ref:
 
 BigQuery

@@ -39,6 +39,7 @@ currently supports the following SQL dialects (though perhaps not in full):
 - [Hive](https://hive.apache.org/)
 - [Materialize](https://materialize.com/)
 - [MySQL](https://www.mysql.com/)
+- [AuroraMySQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html)
 - [Oracle](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/index.html)
 - [PostgreSQL](https://www.postgresql.org/) (aka Postgres)
 - [Redshift](https://docs.aws.amazon.com/redshift/index.html)

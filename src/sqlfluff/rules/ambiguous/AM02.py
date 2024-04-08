@@ -15,7 +15,7 @@ class Rule_AM02(BaseRule):
 
     .. note::
        This rule is only enabled for dialects that support ``UNION`` and
-       ``UNION DISTINCT`` (``ansi``, ``hive``, ``mysql``, and ``redshift``).
+       ``UNION DISTINCT`` (``ansi``, ``hive``, ``mysql``, ``auroramysql``, and ``redshift``).
 
     **Anti-pattern**
 
@@ -61,6 +61,7 @@ class Rule_AM02(BaseRule):
             "ansi",
             "hive",
             "mysql",
+            "auroramysql",
             "redshift",
         ]:
             return LintResult()
